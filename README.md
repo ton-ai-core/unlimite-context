@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/6f45ff6a-bff4-4608-a708-1fb1b0966fc1)
 
-# unlimite-context
+# @ton-ai-core/unlimite-context
 
 Unlimited context: export and manage unlimited chat history from Cursor for any project.
 
@@ -15,18 +15,18 @@ Unlimited context: export and manage unlimited chat history from Cursor for any 
 
 ### Using npx (no install required)
 ```sh
-npx unlimite-context <project-identifier>
+npx @ton-ai-core/unlimite-context <project-identifier>
 ```
 
 ### Local install
 ```sh
-npm install unlimite-context
-yarn add unlimite-context
+npm install @ton-ai-core/unlimite-context
+yarn add @ton-ai-core/unlimite-context
 ```
 
 ### Global install
 ```sh
-npm install -g unlimite-context
+npm install -g @ton-ai-core/unlimite-context
 ```
 
 ## Usage
