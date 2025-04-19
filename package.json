@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ton-ai-core/cursor-export.git"
+    "url": "git+https://github.com/ton-ai-core/unlimite-context.git"
   },
   "keywords": [
     "cursor",
@@ -23,9 +23,9 @@
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/ton-ai-core/cursor-export/issues"
+    "url": "https://github.com/ton-ai-core/unlimite-context/issues"
   },
-  "homepage": "https://github.com/ton-ai-core/cursor-export#readme",
+  "homepage": "https://github.com/ton-ai-core/unlimite-context#readme",
   "dependencies": {
     "better-sqlite3": "^11.9.1",
     "commander": "^13.1.0",
