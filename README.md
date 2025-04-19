@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/6f45ff6a-bff4-4608-a708-1fb1b0966fc1)
+
 # unlimite-context
 
 Unlimited context: export and manage unlimited chat history from Cursor for any project.
