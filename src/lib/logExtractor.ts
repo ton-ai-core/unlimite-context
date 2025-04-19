@@ -500,8 +500,8 @@ export async function extractAndSaveCursorChatLogs(
                 }
             }
             const composerIdShort = (fullData.composerId || key.replace('composerData:', '')).substring(0, 8);
-            const logFileName = `${safeName}_${dateStr}_${composerIdShort}.log`;
-            const chatSubDirName = `${safeName}_${dateStr}_${composerIdShort}_details`;
+            const logFileName = `${dateStr}_${safeName}_${composerIdShort}.log`;
+            const chatSubDirName = `${dateStr}_${safeName}_${composerIdShort}_details`;
             const chatDirPath = path.join(outputDir, chatSubDirName);
             let remappedLogFileName = logFileName;
             if (remappedLogFileName) {
