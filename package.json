@@ -1,0 +1,47 @@
+{
+  "name": "unlimite-context",
+  "version": "1.0.0",
+  "description": "Unlimited context: export and manage unlimited chat history from Cursor for any project.",
+  "main": "dist/logExtractor.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ton-ai-core/cursor-export.git"
+  },
+  "keywords": [
+    "cursor",
+    "chat",
+    "log",
+    "export",
+    "llm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ton-ai-core/cursor-export/issues"
+  },
+  "homepage": "https://github.com/ton-ai-core/cursor-export#readme",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "unlimite-context": "dist/cli/index.js"
+  }
+}
