@@ -49,7 +49,7 @@ unlimite-context my-project-id --save-to-project /path/to/project
 ```
 
 ## Output
-- All exported chats are saved in `./cursor-export-logs` (or the specified directory)
+- All exported chats are saved in `./cursor-composers` (or the specified directory)
 - Each chat is a separate file, with script/code files safely renamed (e.g. `.js` → `.jstxt`)
 - The CLI prints the 5 newest chats and a summary of the rest
 
