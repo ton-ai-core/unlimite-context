@@ -58,7 +58,7 @@ unlimite-context my-project-id --save-to-project /path/to/project
 - `npm test` — Run tests
 
 ## License
-ISC
+MIT
 
 ## Issues & Support
 - [GitHub Issues](https://github.com/ton-ai-core/cursor-export/issues)
