@@ -1,6 +1,6 @@
 {
   "name": "@ton-ai-core/unlimite-context",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unlimited context: export and manage unlimited chat history from Cursor for any project.",
   "main": "dist/logExtractor.js",
   "scripts": {
