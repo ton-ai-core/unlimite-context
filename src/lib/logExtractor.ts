@@ -475,6 +475,10 @@ export async function extractAndSaveCursorChatLogs(
         let projectChatsFound = 0;
 
         for (const { key, value } of rows) {
+            if (!value) {
+                console.warn(`Skipping row with key ${key} due to null/undefined value`);
+                continue; // Пропускаем строку, если value === null или undefined
+            }
             const rawValue = typeof value === 'string' ? value : value.toString('utf8');
             if (!rawValue.includes(projectIdentifier)) continue;
 
